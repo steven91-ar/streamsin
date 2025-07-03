@@ -48,11 +48,17 @@ Le tout devait être fonctionnel sans authentification, et basé uniquement sur 
 
 Conclusion
 Avec Streamsin, le défi a été de reproduire une plateforme de streaming moderne en s’appuyant uniquement sur des technologies front-end. Le projet démontre comment Angular permet de construire une interface modulaire, réactive et maintenable, en interaction avec des services externes. Grâce à une architecture bien pensée et une séparation claire des responsabilités, l’application reste facilement évolutive. À terme, Streamsin pourrait être enrichi par de nouvelles fonctionnalités comme l’ajout de favoris, de comptes utilisateurs ou la gestion de playlists.
-
+Page D'accueil : 
 ![Capture d'écran 2025-07-03 102844](https://github.com/user-attachments/assets/949853d5-6dcf-485d-90e6-379e2f1ba183)
+
+Page détail
 
 ![Capture d'écran 2025-07-03 102914](https://github.com/user-attachments/assets/2efd7709-4d1f-45e1-960a-2e7ed3b4c69d)
 
+Visionnage video
+
 ![Capture d'écran 2025-07-03 103029](https://github.com/user-attachments/assets/735f4734-6bb2-4a7e-a3b6-1977df3987bb)
+
+Page recherche
 
 ![Capture d'écran 2025-07-03 103311](https://github.com/user-attachments/assets/18c52138-0294-43bc-888f-177681f851ac)
