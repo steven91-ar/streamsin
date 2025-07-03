@@ -1,27 +1,58 @@
-# Stream
+Présentation
+Streamsin est une application web développée avec Angular, conçue pour reproduire l’expérience utilisateur d’une plateforme de streaming comme Netflix. L’idée du projet est née de l’envie de construire une interface fluide, esthétique et interactive qui permette à l’utilisateur de parcourir des films, consulter des informations détaillées, et lancer des bandes-annonces, le tout à partir d’une base de données externe. Streamsin met l’accent sur l’expérience visuelle et l’accessibilité à l’information, avec une navigation simple et une organisation claire des contenus.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Entités principales
+Le cœur de l’application repose sur plusieurs entités essentielles :
 
-## Development server
+Film : contient le titre, l'affiche, le résumé, l’identifiant, et parfois un lien vers une vidéo (bande-annonce).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Acteur : chaque film est associé à un ou plusieurs acteurs, affichés avec leur nom, leur rôle (voice ou personnage), et leur photo.
 
-## Code scaffolding
+Recherche : l’utilisateur peut effectuer une recherche par mot-clé, et la liste des résultats est générée dynamiquement.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Vidéo : certaines pages permettent l’affichage d’un lecteur pour visionner une bande-annonce intégrée.
 
-## Build
+Ces entités sont représentées sous forme de composants Angular et récupérées via des appels API.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Technologies utilisées
+Pour développer Streamsin, plusieurs technologies modernes du web ont été utilisées :
 
-## Running unit tests
+Angular : framework principal pour construire l’interface en mode SPA (Single Page Application)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+TypeScript : langage fort typé permettant une meilleure lisibilité et organisation du code
 
-## Running end-to-end tests
+HTML / CSS : pour structurer et styliser l’interface utilisateur
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+JavaScript : pour certains comportements dynamiques côté client
 
-## Further help
+API REST : pour récupérer en temps réel les données des films, des acteurs et des bandes-annonces
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+GitHub Pages : utilisé pour le déploiement de l’application
+
+Cahier des charges
+Le projet devait répondre à plusieurs objectifs fonctionnels précis :
+
+Permettre à l’utilisateur d’effectuer une recherche de films ou séries à partir d’un mot-clé
+
+Afficher une liste de résultats sous forme de vignettes avec le titre et l’affiche
+
+Offrir la possibilité de consulter une fiche détaillée avec le synopsis, les acteurs et la bande-annonce
+
+Afficher le casting complet d’un film, avec les rôles et les images des comédiens
+
+Proposer une navigation fluide entre les pages principales : accueil, recherche, détails
+
+Assurer un design responsive pour s’adapter à tous les écrans
+
+Le tout devait être fonctionnel sans authentification, et basé uniquement sur des données accessibles via une API publique (type TMDB ou équivalent).
+
+Conclusion
+Avec Streamsin, le défi a été de reproduire une plateforme de streaming moderne en s’appuyant uniquement sur des technologies front-end. Le projet démontre comment Angular permet de construire une interface modulaire, réactive et maintenable, en interaction avec des services externes. Grâce à une architecture bien pensée et une séparation claire des responsabilités, l’application reste facilement évolutive. À terme, Streamsin pourrait être enrichi par de nouvelles fonctionnalités comme l’ajout de favoris, de comptes utilisateurs ou la gestion de playlists.
+
+![Capture d'écran 2025-07-03 102844](https://github.com/user-attachments/assets/949853d5-6dcf-485d-90e6-379e2f1ba183)
+
+![Capture d'écran 2025-07-03 102914](https://github.com/user-attachments/assets/2efd7709-4d1f-45e1-960a-2e7ed3b4c69d)
+
+![Capture d'écran 2025-07-03 103029](https://github.com/user-attachments/assets/735f4734-6bb2-4a7e-a3b6-1977df3987bb)
+
+![Capture d'écran 2025-07-03 103311](https://github.com/user-attachments/assets/18c52138-0294-43bc-888f-177681f851ac)
